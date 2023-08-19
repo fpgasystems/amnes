@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_corr_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench_corr" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="569720fs"></ZoomStartTime>
+      <ZoomEndTime time="4569721fs"></ZoomEndTime>
+      <Cursor1Time time="3385600fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="60" />
+   <wvobject fp_name="divider30" type="divider">
+      <obj_property name="label">testbench</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/reset_n">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/s_config">
+      <obj_property name="ElementShortName">s_config</obj_property>
+      <obj_property name="ObjectShortName">s_config</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/s_ctrl_awready">
+      <obj_property name="ElementShortName">s_ctrl_awready</obj_property>
+      <obj_property name="ObjectShortName">s_ctrl_awready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/s_ctrl_awvalid">
+      <obj_property name="ElementShortName">s_ctrl_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_ctrl_awvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/s_ctrl_awaddr">
+      <obj_property name="ElementShortName">s_ctrl_awaddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ctrl_awaddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/s_ctrl_wready">
+      <obj_property name="ElementShortName">s_ctrl_wready</obj_property>
+      <obj_property name="ObjectShortName">s_ctrl_wready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/s_ctrl_wvalid">
+      <obj_property name="ElementShortName">s_ctrl_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_ctrl_wvalid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/s_ctrl_wdata">
+      <obj_property name="ElementShortName">s_ctrl_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_ctrl_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/s_sink_ready">
+      <obj_property name="ElementShortName">s_sink_ready</obj_property>
+      <obj_property name="ObjectShortName">s_sink_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/s_sink_valid">
+      <obj_property name="ElementShortName">s_sink_valid</obj_property>
+      <obj_property name="ObjectShortName">s_sink_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/s_sink_data">
+      <obj_property name="ElementShortName">s_sink_data[511:0]</obj_property>
+      <obj_property name="ObjectShortName">s_sink_data[511:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/s_cntr_elements">
+      <obj_property name="ElementShortName">s_cntr_elements[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_cntr_elements[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/s_data">
+      <obj_property name="ElementShortName">s_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/s_src_ready">
+      <obj_property name="ElementShortName">s_src_ready</obj_property>
+      <obj_property name="ObjectShortName">s_src_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/s_src_valid">
+      <obj_property name="ElementShortName">s_src_valid</obj_property>
+      <obj_property name="ObjectShortName">s_src_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider40" type="divider">
+      <obj_property name="label">user_hls and ctrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/numberItems_V">
+      <obj_property name="ElementShortName">numberItems_V[63:0]</obj_property>
+      <obj_property name="ObjectShortName">numberItems_V[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider45" type="divider">
+      <obj_property name="label">ctr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/design_user_hls_c0_0_top_control_s_axi_U/ADDR_NUMBERITEMS_V_DATA_0">
+      <obj_property name="ElementShortName">ADDR_NUMBERITEMS_V_DATA_0</obj_property>
+      <obj_property name="ObjectShortName">ADDR_NUMBERITEMS_V_DATA_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/design_user_hls_c0_0_top_control_s_axi_U/waddr">
+      <obj_property name="ElementShortName">waddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/design_user_hls_c0_0_top_control_s_axi_U/numberItems_V">
+      <obj_property name="ElementShortName">numberItems_V[63:0]</obj_property>
+      <obj_property name="ObjectShortName">numberItems_V[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider183" type="divider">
+      <obj_property name="label">convert_in</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/convert_data_in_U0/counter_V">
+      <obj_property name="ElementShortName">counter_V[63:0]</obj_property>
+      <obj_property name="ObjectShortName">counter_V[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/convert_data_in_U0/valid_1">
+      <obj_property name="ElementShortName">valid_1[0:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_1[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider378" type="divider">
+      <obj_property name="label">corr_accumulators</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/ap_start">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/ap_done">
+      <obj_property name="ElementShortName">ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/ap_ready">
+      <obj_property name="ElementShortName">ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/ap_idle">
+      <obj_property name="ElementShortName">ap_idle</obj_property>
+      <obj_property name="ObjectShortName">ap_idle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/ap_continue">
+      <obj_property name="ElementShortName">ap_continue</obj_property>
+      <obj_property name="ObjectShortName">ap_continue</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/samples">
+      <obj_property name="ElementShortName">samples[31:0]</obj_property>
+      <obj_property name="ObjectShortName">samples[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/sums_V_din">
+      <obj_property name="ElementShortName">sums_V_din[64:0]</obj_property>
+      <obj_property name="ObjectShortName">sums_V_din[64:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/accumulate_U0/accumulators_state">
+      <obj_property name="ElementShortName">accumulators_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">accumulators_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/accumulate_U0/accumulators_samples">
+      <obj_property name="ElementShortName">accumulators_samples[31:0]</obj_property>
+      <obj_property name="ObjectShortName">accumulators_samples[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_U0/accumulate_U0/accumulators_last">
+      <obj_property name="ElementShortName">accumulators_last[0:0]</obj_property>
+      <obj_property name="ObjectShortName">accumulators_last[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider386" type="divider">
+      <obj_property name="label">coefficient</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/ap_start">
+      <obj_property name="ElementShortName">ap_start</obj_property>
+      <obj_property name="ObjectShortName">ap_start</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/ap_done">
+      <obj_property name="ElementShortName">ap_done</obj_property>
+      <obj_property name="ObjectShortName">ap_done</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/ap_ready">
+      <obj_property name="ElementShortName">ap_ready</obj_property>
+      <obj_property name="ObjectShortName">ap_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/ap_idle">
+      <obj_property name="ElementShortName">ap_idle</obj_property>
+      <obj_property name="ObjectShortName">ap_idle</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/ap_continue">
+      <obj_property name="ElementShortName">ap_continue</obj_property>
+      <obj_property name="ObjectShortName">ap_continue</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/samples">
+      <obj_property name="ElementShortName">samples[31:0]</obj_property>
+      <obj_property name="ObjectShortName">samples[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/acc_coeff_U0/sums_V_dout">
+      <obj_property name="ElementShortName">sums_V_dout[64:0]</obj_property>
+      <obj_property name="ObjectShortName">sums_V_dout[64:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din">
+      <obj_property name="ElementShortName">result_values_V_din[32:0]</obj_property>
+      <obj_property name="ObjectShortName">result_values_V_din[32:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="vbus" fp_name="vbus938">
+      <obj_property name="label">results</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[32]">
+         <obj_property name="ElementShortName">[32]</obj_property>
+         <obj_property name="ObjectShortName">[32]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[31]">
+         <obj_property name="ElementShortName">[31]</obj_property>
+         <obj_property name="ObjectShortName">[31]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[30]">
+         <obj_property name="ElementShortName">[30]</obj_property>
+         <obj_property name="ObjectShortName">[30]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[29]">
+         <obj_property name="ElementShortName">[29]</obj_property>
+         <obj_property name="ObjectShortName">[29]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[28]">
+         <obj_property name="ElementShortName">[28]</obj_property>
+         <obj_property name="ObjectShortName">[28]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[27]">
+         <obj_property name="ElementShortName">[27]</obj_property>
+         <obj_property name="ObjectShortName">[27]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[26]">
+         <obj_property name="ElementShortName">[26]</obj_property>
+         <obj_property name="ObjectShortName">[26]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[25]">
+         <obj_property name="ElementShortName">[25]</obj_property>
+         <obj_property name="ObjectShortName">[25]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[24]">
+         <obj_property name="ElementShortName">[24]</obj_property>
+         <obj_property name="ObjectShortName">[24]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[23]">
+         <obj_property name="ElementShortName">[23]</obj_property>
+         <obj_property name="ObjectShortName">[23]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[22]">
+         <obj_property name="ElementShortName">[22]</obj_property>
+         <obj_property name="ObjectShortName">[22]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[21]">
+         <obj_property name="ElementShortName">[21]</obj_property>
+         <obj_property name="ObjectShortName">[21]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[20]">
+         <obj_property name="ElementShortName">[20]</obj_property>
+         <obj_property name="ObjectShortName">[20]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[19]">
+         <obj_property name="ElementShortName">[19]</obj_property>
+         <obj_property name="ObjectShortName">[19]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[18]">
+         <obj_property name="ElementShortName">[18]</obj_property>
+         <obj_property name="ObjectShortName">[18]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[17]">
+         <obj_property name="ElementShortName">[17]</obj_property>
+         <obj_property name="ObjectShortName">[17]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[16]">
+         <obj_property name="ElementShortName">[16]</obj_property>
+         <obj_property name="ObjectShortName">[16]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[15]">
+         <obj_property name="ElementShortName">[15]</obj_property>
+         <obj_property name="ObjectShortName">[15]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[14]">
+         <obj_property name="ElementShortName">[14]</obj_property>
+         <obj_property name="ObjectShortName">[14]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[13]">
+         <obj_property name="ElementShortName">[13]</obj_property>
+         <obj_property name="ObjectShortName">[13]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[12]">
+         <obj_property name="ElementShortName">[12]</obj_property>
+         <obj_property name="ObjectShortName">[12]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[11]">
+         <obj_property name="ElementShortName">[11]</obj_property>
+         <obj_property name="ObjectShortName">[11]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[10]">
+         <obj_property name="ElementShortName">[10]</obj_property>
+         <obj_property name="ObjectShortName">[10]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[9]">
+         <obj_property name="ElementShortName">[9]</obj_property>
+         <obj_property name="ObjectShortName">[9]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[8]">
+         <obj_property name="ElementShortName">[8]</obj_property>
+         <obj_property name="ObjectShortName">[8]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[7]">
+         <obj_property name="ElementShortName">[7]</obj_property>
+         <obj_property name="ObjectShortName">[7]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[6]">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[5]">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[4]">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[3]">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[2]">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/result_values_V_din[1]">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/acc_coeff_U0/coefficients_coeff_v">
+      <obj_property name="ElementShortName">coefficients_coeff_v[31:0]</obj_property>
+      <obj_property name="ObjectShortName">coefficients_coeff_v[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/acc_coeff_U0/coefficients_state">
+      <obj_property name="ElementShortName">coefficients_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">coefficients_state[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/acc_coeff_U0/coefficients_col">
+      <obj_property name="ElementShortName">coefficients_col[31:0]</obj_property>
+      <obj_property name="ObjectShortName">coefficients_col[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/acc_coeff_U0/coefficients_row">
+      <obj_property name="ElementShortName">coefficients_row[31:0]</obj_property>
+      <obj_property name="ObjectShortName">coefficients_row[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/correlation_top_U0/compute_1_U0/acc_coeff_U0/coefficients_index">
+      <obj_property name="ElementShortName">coefficients_index[31:0]</obj_property>
+      <obj_property name="ObjectShortName">coefficients_index[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider1344" type="divider">
+      <obj_property name="label">convert_data_out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/convert_data_out_U0/result_values_V_dout">
+      <obj_property name="ElementShortName">result_values_V_dout[32:0]</obj_property>
+      <obj_property name="ObjectShortName">result_values_V_dout[32:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/convert_data_out_U0/m_axis_host_src_TDATA">
+      <obj_property name="ElementShortName">m_axis_host_src_TDATA[511:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_host_src_TDATA[511:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/convert_data_out_U0/m_axis_host_src_TVALID">
+      <obj_property name="ElementShortName">m_axis_host_src_TVALID</obj_property>
+      <obj_property name="ObjectShortName">m_axis_host_src_TVALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/convert_data_out_U0/m_axis_host_src_TKEEP">
+      <obj_property name="ElementShortName">m_axis_host_src_TKEEP[63:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_host_src_TKEEP[63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/convert_data_out_U0/m_axis_host_src_TDEST">
+      <obj_property name="ElementShortName">m_axis_host_src_TDEST[3:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_host_src_TDEST[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench_corr/inst_design_user_hls_c0_0_top/m_axis_host_src_TLAST">
+      <obj_property name="ElementShortName">m_axis_host_src_TLAST[0:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_host_src_TLAST[0:0]</obj_property>
+   </wvobject>
+</wave_config>
